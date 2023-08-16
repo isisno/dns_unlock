@@ -37,7 +37,7 @@ ipv6_first：query for both IPv4 and IPv6, use IPv6 is present
 
 # 二、不能解锁的机器：安装dnsmasq
 wget --no-check-certificate -O unlock.sh https://raw.githubusercontent.com/bingotl/dns_unlock/main/unlock.sh && chmod +x unlock.sh  
-下载配置文件:
+下载配置文件:  
 ./unlock.sh ip地址
 
 2个脚本都安装完后，需要重启你的ss/v2/trojan等代理服务才会生效  
